@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243 244 246);
+}
+
+nav {
+  background-color: #ffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 3px 3px -2px #e0e0e0;
+}
+
+.apple-logo {
+  margin: 0.5em;
+}
+
+.vertical-bar {
+  border-left: 2px solid rgb(221, 221, 221);
+  height: 30px;
+  margin: 8px;
+}
+
+.search-bar {
+  width: 80%;
+  border: none;
+}
+
+input[type="text"] {
+  padding: 6px 30px 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  width: 80%;
+}
+*:focus {
+  outline: none;
+}
+
+.profile {
+  align-items: center;
+  display: flex;
+  font-size: small;
+  margin-right: 1em;
+}
+.profile-photo {
+  margin-right: 0.5em;
+  border-radius: 50%;
+}
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.column-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.column {
+  flex: 1;
+  padding: 16px;
+  margin: 0 10px;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 2px -1px lightgray;
+}
+.card-content {
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.card-header {
+  font-weight: bold;
+  padding: 0.1em;
+  color: gray;
+}
+.card-body {
+  padding: 0.1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: darkgray;
+  font-size: 13px;
+}
+
+.task-profile {
+  margin: 00.1em;
+  background-color: rgba(99, 99, 252, 0.952);
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  padding: 0.7em;
+}
+.task-profile[name="OZ"] {
+  background-color: rgb(6, 163, 224);
+}
+
+.task-profile[name="LE"] {
+  background-color: rgba(168, 87, 245, 0.952);
+}
+.task-profile[name="AM"] {
+  background-color: rgba(99, 99, 252, 0.952);
+}
+.card-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-due {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.task-due-today {
+  display: inline-block;
+  color: rgb(132, 108, 155);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.task-not-due {
+  display: inline-block;
+  color: rgb(139, 228, 139);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.task-done {
+  display: inline-block;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 13px;
+}
